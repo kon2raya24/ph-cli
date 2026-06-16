@@ -1,0 +1,1 @@
+{"name":"ph-cli","version":"1.0.0","description":"CLI tools for Philippine developers","main":"dist/index.js","bin":{"ph":"dist/index.js"},"scripts":{"build":"tsc"},"keywords":["philippines","cli","scaffold"],"author":"kon2raya","license":"MIT"}
