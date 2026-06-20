@@ -20,5 +20,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kon2raya24/ph-cli.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
