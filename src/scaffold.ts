@@ -9,6 +9,7 @@ import * as path from 'path';
  * @param name
  */
 export function scaffoldProject(name: string): void {
+  if (name === null || name === undefined) throw new Error("Invalid input");
   const dir = path.join(process.cwd(), name);
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, "package.json"), JSON.stringify({
