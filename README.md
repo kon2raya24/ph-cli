@@ -21,3 +21,11 @@ MIT
 
 See source code and JSDoc comments for full API documentation.
 All exported functions include TypeScript types.
+
+
+## Usage
+
+```typescript
+import { } from 'ph-cli';
+// See API section for available functions
+```
