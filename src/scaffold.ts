@@ -1,6 +1,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
+// Type exports for consumers
+// Add specific types as needed
+
 export function scaffoldProject(name: string): void {
   const dir = path.join(process.cwd(), name);
   fs.mkdirSync(dir, { recursive: true });
