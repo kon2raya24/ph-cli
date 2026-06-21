@@ -4,15 +4,6 @@ import * as path from 'path';
 // Type exports for consumers
 // Add specific types as needed
 
-// Type exports for consumers
-// Add specific types as needed
-
-// Type exports for consumers
-// Add specific types as needed
-
-// Type exports for consumers
-// Add specific types as needed
-
 /**
  * scaffoldProject
  * @param name
